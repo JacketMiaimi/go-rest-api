@@ -1,0 +1,11 @@
+# локальный конфиг
+
+environment: "local" # local, dev, prod | окружение (запускают локально или через удаленный сервер)
+storage_path: "C:\\IT\\backend\\Go\\petProject\\REST_API\\storage\\storage.db" # путь до файлов, где хранится база данных
+db:
+http_server:
+  address: "localhost:8080"
+  timeout: 4s # метод на чтение, отправку запроса | отработку не ограничено
+  idle_timeout: 60s # Время жизни соединение с клиентом
+  
+# environment - среда
