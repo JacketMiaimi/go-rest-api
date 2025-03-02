@@ -2,7 +2,7 @@ package sl
 
 import (
 	_ "github.com/mattn/go-sqlite3" // Драйвер для sqlite
-	"golang.org/x/exp/slog"
+	"log/slog"
 )
 
 func Err(err error) slog.Attr {
